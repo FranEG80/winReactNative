@@ -1,6 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-
+import {Text, View} from 'react-native';
 
 function SettingsScreen(props) {
   return (
@@ -10,4 +9,4 @@ function SettingsScreen(props) {
   );
 }
 
-export default SettingsScreen
+export default SettingsScreen;

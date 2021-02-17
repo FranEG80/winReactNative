@@ -1,4 +1,4 @@
-const Icons = [
+const iconsArray = [
   'add',
   'add-circle',
   'add-circle-outline',
@@ -515,3 +515,5 @@ const Icons = [
   'md-woman-outline',
   'md-woman-sharp',
 ];
+
+export default iconsArray;
