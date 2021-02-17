@@ -72,7 +72,7 @@ function SidebarNavigator({
                     // borderWidth: 1,
                   },
                 ]}>
-                {Icono && <Icono name={icon} size={48} color={'white'} />}
+                {Icono && <Icono name={icon} size={32} color={'white'} />}
                 {/* <Text style={{color: '#fff'}}>{route.name}</Text> */}
               </TouchableOpacity>
             );

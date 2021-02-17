@@ -23,13 +23,13 @@ const App = () => (
     <View style={{width: '100%', height: 50, backgroundColor: '#313131'}} />
     <SidebarNavigator.Navigator
       screenOptions={({route}) => ({
-        tabBarIcon: ({focused, color, size}) => {
+        tabBarIcon: ({color, size}) => {
           let iconName;
 
           if (route.name === 'Home') {
-            iconName = focused ? 'arrow-circle-o-down' : 'arrow-circle-o-up';
+            iconName = 'home';
           } else if (route.name === 'Settings') {
-            iconName = focused ? 'google-plus-official' : 'google-plus-circle';
+            iconName = 'gears';
           }
 
           // You can return any component that you like here!
